@@ -34,12 +34,16 @@ for student in students:
     if student == "rokhaya":
         print(student + "IT ME!!")
     #5g if you are not in the list print "I guess I'm not cool"
-for student in students:
-    if student != "rokhaya":
-        print("I guess I'm not cool")
+if "rokhaya" not in students:
+    print("I guess I'm not cool")
 
     #5h list some methods to remove things from a list
-print(students.pop(int((student[-1]))))  #need to the int() to converted to an int
+def removeName():
+    i = 0
+    for student in len(students):
+        i = i + 1
+    students.pop(student[i])
+
 
 
 #6 Create a dictionary with keys "Digital Crafts" ,"Instructor", "TA" and values "Bootcamp" ,"Joe" ,"Ethan"
@@ -61,22 +65,24 @@ class Car:
     
     #7a Instantiate 3 new Cars
 mercedes = Car("Mercedes","x6", 2021, "suv")
-acura = Car("Acura","rdx", 2022, "suv" )
+acura = Car("Acura","rdx", 2022, "suv")
 jeep = Car("Jeep", "rubicon", 2022, "truck")  
 
     #7b Add a method that allows you to see the make and model of a car in your terminal
-cars = []
 
-#def viewMakeAndModel():
-      #self.getattr("make","model")
+
+def viewMakeAndModel(self):
+    print(f" this car make is {self.make} and his model is {self.model}"  )
+
 
     #7c Use the above method on the second car
-acura.viewMakeAndModel()
+viewMakeAndModel(acura)
+
     #7d Add a method that is called "honkHorn" that prints "Beep Beep"
 
 def honkHorn():
     print("Beep Beep")
 
-
+honkHorn()
 #Push this all to a repo on your github
 #Paste github link of assignment page to: https://digitalcrafts.instructure.com/courses/225/assignments/9345
