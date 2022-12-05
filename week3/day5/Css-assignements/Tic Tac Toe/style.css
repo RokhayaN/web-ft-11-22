@@ -1,3 +1,28 @@
 .h1{
     color: orangered;
 }
+.container {
+    display: grid;
+   
+    border: 2px solid purple;
+  }
+  .board-grid {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "body main main"
+      "footer main main";
+    /* grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: repeat(150px); */
+    border: 2px solid blue;
+    gap: 20px 10px;
+    padding: 20px;
+  }
+  .title{
+    display: grid;
+    border: 3px solid black;
+    padding: 50px 50px;
+    height: 50px;
+    width: 50px;
+
+  }
