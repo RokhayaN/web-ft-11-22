@@ -1,0 +1,15 @@
+.chessboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    border: 2px dotted red;
+}
+.row {
+    display: flex;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+  }
