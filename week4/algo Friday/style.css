@@ -1,0 +1,6 @@
+
+.card{
+    display: flex;
+    background-color: rgb(19, 216, 19);
+    border: 2px blue solid;
+}

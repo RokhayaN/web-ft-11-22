@@ -1,0 +1,31 @@
+*{
+display: grid;
+justify-content: center;
+background-color: grey;
+height: 100%;
+width: 100%;
+align-items: center;
+}
+div{
+    display: grid;
+    justify-content: center   
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(232, 221, 221);
+    height: 1000px;
+    width: 700px;
+    align-content: center;
+    border-radius: 8%;
+    padding-top: 200px;
+    background-color: black;
+}
+button{
+    width: 25%;
+    /* box-sizing: border-box;  */
+      border-radius: 25%;  
+    background-color: orange;
+    color: white;
+    height: 200px;
+}
