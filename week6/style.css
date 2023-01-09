@@ -1,0 +1,101 @@
+.topMovieContainer{
+    height: fit-content;
+    width: auto;
+    background-color: #222222;
+    /* background-image: url("./spider.jpeg"); */
+    
+  }
+
+  searchField{ 
+    color: white;
+  }
+.searchButton{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+    color: #222222;}
+
+    .searchButton:hover {
+        border-color: #000000;
+        background: #f7f7f7;
+    }
+    .searchField{
+        
+        box-shadow: inset #abacaf 0 0 0 2px;
+        border: 0;
+        background: rgba(0, 0, 0, 0);
+        appearance: none;
+        width: 100%;
+        position: relative;
+        border-radius: 8px;
+        padding: 9px 12px;
+        line-height: 1.4;
+        color:white;
+        font-size: 16px;
+        font-weight: 400;
+        height: 30px;
+        transition: all .2s ease;
+        margin: 3px;
+
+    }
+
+    .searchField:hover{
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+    }
+    .searchField :focus{
+        background: #fff;
+        outline: 0;
+        box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+    }
+.moviePoster {
+    height: 300px;
+    width: auto;
+    border-radius: 10%;
+  }
+  
+  .movieCard {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+      border: 3px solid white;
+     background-color: black;
+     color: white;
+  }
+  
+  .movieCardContainer {
+     /* border: 3px solid red;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .searchContainer {
+    display: grid;
+    grid-template-columns: 200px 2fr 1fr;
+    color: white;
+  }
+  
+  .searchInput {
+    grid-column: 3/3;
+    display: flex;
+    justify-content: end;
+    /* height: 45px; */
+    align-items: center;
+  }
+  
